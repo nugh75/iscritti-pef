@@ -1,0 +1,58 @@
+# File di sistema
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Ambiente virtuale Python
+venv/
+env/
+ENV/
+
+# File Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# File Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# File Streamlit
+.streamlit/secrets.toml
+
+# File Excel e CSV
+*.xlsx
+*.xls
+*.xlsm
+*.xlsb
+*.csv
+
+# Directory di output
+file_classi/
+file_classi_concorso/
+
+# Eccezioni per file di esempio/input
+!iscritti.csv
